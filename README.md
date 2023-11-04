@@ -1,1 +1,1 @@
-# Codember Challenges resolution
+# Codember Challenges resolutions
