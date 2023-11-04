@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>codember Challenges</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Fran</a>
+      <nav class="nav-items">
+        <a href="https://www.linkedin.com/in/francisco-scotta/" target="_blank"
+          >Contact</a
+        >
+      </nav>
+    </header>
+    <main>
+      <div class="intro">
+        <h1>Challenge 01</h1>
+      </div>
+      <div class="result">
+        <div class="result-text">
+          <h2>Result</h2>
+          <section>
+            <p><label for="sourceText">Source Text</label></p>
+            <textarea id="sourceText" rows="30" cols="100"></textarea>
+          </section>
+          <section>
+            <input type="submit" value="Procesar" onclick="procesar()" />
+          </section>
+        </div>
+      </div>
+      <div>
+        <section class="result" style="word-break: break-word">
+          <h2 id="finalResult"></h2>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="copy">&copy; codember 2023 Challenges</div>
+      <div class="bottom-links"></div>
+    </footer>
+  </body>
+</html>
